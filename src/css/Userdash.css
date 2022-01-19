@@ -1,0 +1,9 @@
+.container-fluid {
+    /* font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    
+    cursor: pointer; */
+    background-color: antiquewhite;
+    background-image: url(/src/images/pizzabg.jpg.jpg)
+  } 

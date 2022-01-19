@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  cursor: pointer;
+  background-color: antiquewhite;
+  background-image: url(../src/images/pizzabg.jpg.jpg)
+} */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

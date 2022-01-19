@@ -1,0 +1,10 @@
+.userlogin {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
+    background-color: antiquewhite;
+    background-image: url(/src/images/pizzabg.jpg.jpg)
+  }
