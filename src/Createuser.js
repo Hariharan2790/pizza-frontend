@@ -10,12 +10,11 @@ function Createuser() {
         initialValues: {
             firstname: '',
             lastname: '',
-            // age: '',
-            // gender: '',
+           
 
             email: '',
             password: ''
-            // confirmpassword: ''
+
 
         },
         onSubmit: async (values) => {
@@ -48,14 +47,7 @@ function Createuser() {
                         <input type="text" name='lastname' className='form-control'
                             onChange={formik.handleChange}
                             value={formik.values.lastname} /><br />
-                        {/* <label>Age</label><br />
-                        <input type="number" name='age' className='form-control'
-                            onChange={formik.handleChange}
-                            value={formik.values.age} /><br /> */}
-                        {/* <label>Gender</label><br />
-                    <input type="text" name='gender' className='form-control'
-                        onChange={formik.handleChange}
-                        value={formik.values.gender} /><br /> */}
+                       
 
                         <label>E-Mail</label><br />
                         <input name='email' type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com"
@@ -65,10 +57,7 @@ function Createuser() {
                         <input type="password" name='password' className='form-control'
                             onChange={formik.handleChange}
                             value={formik.values.password} /><br />
-                        {/* <label>Confirm Password</label><br />
-                    <input type="password" name='confirmpassword' className='form-control'
-                        onChange={formik.handleChange}
-                        value={formik.values.confirmpassword} /><br /> */}
+                       
                         <div className='mt-2'>
                             <input className="btn btn-primary" type="submit" />
                         </div>

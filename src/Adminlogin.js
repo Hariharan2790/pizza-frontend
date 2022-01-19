@@ -58,7 +58,7 @@ function Adminlogin() {
                         <button type="submit" class="btn btn-primary"> Sign up</button>
                     </Link>
                     
-                    <a className="dropdown-item text-white" href="#">Forgot password?</a>
+                    
                 </div>
             </div>
         </div>
