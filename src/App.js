@@ -12,7 +12,7 @@ import Createuser from './Createuser';
 import CreateAdmin from './CreateAdmin';
 import Admindashboard from './Admindashboard';
 import Userdashboard from './Userdashboard';
-import Userdash from './Userdash';
+
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
       <Route path="/admincreate" element={<CreateAdmin />}/>
       <Route path="/admin-dashboard" element={<Admindashboard />}/>
       <Route path="/user-dashboard" element={<Userdashboard/>}/>
-      <Route path="/user-dash" element={<Userdash/>}/>
+      
 
       </Routes>
     </div>
