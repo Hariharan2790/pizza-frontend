@@ -20,7 +20,7 @@ function Createuser() {
         },
         onSubmit: async (values) => {
             try {
-                await axios.post("http://localhost:3000/createuser", values);
+                await axios.post("https://pizzabasedelivery.herokuapp.com/createuser", values);
 
                 navigate("/user-login")
 

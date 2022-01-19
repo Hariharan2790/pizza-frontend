@@ -14,7 +14,7 @@ function Adminlogin() {
         },
         onSubmit: async (values) => {
             try {
-                let signIn = await axios.post("http://localhost:3000/admin-login", values)
+                let signIn = await axios.post("https://pizzabasedelivery.herokuapp.com/admin-login", values)
                 window.localStorage.setItem("my_token", signIn.data.token)
                 navigate("/admin-dashboard")
             } catch (error) {

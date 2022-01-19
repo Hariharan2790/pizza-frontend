@@ -17,7 +17,7 @@ function CreateAdmin() {
         },
         onSubmit: async (values) => {
             try {
-                await axios.post("http://localhost:3000/admincreate", values);
+                await axios.post("https://pizzabasedelivery.herokuapp.com/admincreate", values);
                 navigate("/admin-login")
             } catch (error) {
                 console.log(error);
